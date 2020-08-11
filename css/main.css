@@ -1,0 +1,273 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-image: url('../img/12.jpg');
+}
+
+.hero-bg {
+   width: 100%;
+   height: 100%;
+   background-color: rgba(0, 0, 0, .73); 
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    
+}
+/* Nawigacja */
+nav {
+    position: sticky;
+    top: 0;
+    height: 60px;
+    line-height: 60px;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    overflow: hidden;
+    z-index: 1;
+    
+}
+
+.nav-mobile {
+    margin-right: 100%;
+
+}
+
+.nav-mobile button {
+    font-size: 30px;
+    padding: 0 30px;
+    background: none;
+    border: none;
+    line-height: 60px;
+    color: white;
+}
+
+.nav-desktop {
+    display: none;
+
+}
+/*Header */
+.header-img {
+    position: relative;
+    height: 330px;
+    background-image: url('../img/crossfit-small.jpg');
+    border: rgb(197, 6, 44);
+    border-style:groove;
+    border-width: 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+}
+
+.header-text h1 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 5px;
+}
+
+.header-text span {
+    color: rgb(197, 6, 44);
+}
+
+.header-text p {
+    font-size: 14px;
+    
+}
+
+
+/*main*/
+section h2 {
+    margin: 40px 0;
+    color: white;
+    font-size: 38px;
+    text-align: center;
+
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+    transition: transform .4s;
+}
+
+section h2:hover {
+    color: rgb(197, 6, 44);
+    transform: scale(1.2);
+}
+
+section p {
+    margin: 40px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+     text-shadow: 3px 3px 5px black;
+}
+
+.underline {
+    position: relative;
+}
+
+
+
+
+.photos {
+    font-size: 0;
+}
+
+.main h2 {
+    font-size: 28px;
+    margin: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+
+.hero-bg2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3); 
+ }
+ 
+
+.main-photo {
+    position: relative;
+    color: white;
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border: rgb(197, 6, 44);
+    border-style:groove;
+    border-width: 2px;
+    transition: color .4s;
+}
+
+.first-photo {
+ background-image: url('../img/box-1514845_1920.jpg');
+ 
+}
+
+.main-photo:hover .photo-text h3 {
+    color: rgb(197, 6, 44);
+    transform: scale(1.2);
+}
+
+.second-photo {
+    background-image: url('../img/wp2563911.jpg');
+   
+}
+
+.third-photo {
+    background-image: url('../img/workout-713658_1920.jpg');
+   
+}
+
+.four-photo {
+    background-image: url('../img/person-3593664_1920.jpg');
+    
+}
+
+.photo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    font-size: 16px;
+}
+
+
+.photo-text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    transition: transform .4s;
+   
+}
+
+.contact {
+text-align: center;
+
+}
+.contact h3 {
+    color: white;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+.contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 160%;
+
+}
+
+
+
+footer {
+    padding-top: 40px;
+    color: white;
+    height: 80px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+
+
+}
+
+.foot-icon{
+    margin-left: 8px;
+}
+.foot-icon i {
+   color: rgb(197, 6, 44);
+   padding: 0 5px;
+   font-size: 24px;
+   transition: color .3s;
+}
+
+.foot-icon i:hover {
+   color: rgb(143, 20, 20)
+}
+
+
+@media (min-width: 400px) {
+    .header-text h1 {
+        margin-bottom: 10px;
+        font-size: 36px;
+    }
+    .header-text p {
+        font-size: 18px;
+    }
+    .photo-text h3 {
+        font-size: 39px;
+        margin-bottom: 10px;
+        
+       
+    }
+
+    .photo-text {
+        
+        font-size: 19px;
+    }
+}
+

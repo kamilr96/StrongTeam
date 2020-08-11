@@ -1,0 +1,6 @@
+/* (min-width: 576px) */
+
+.header-img {
+    background-image: url('../img/crossfit-medium.jpg');
+    background-position: 40% 62%;
+}

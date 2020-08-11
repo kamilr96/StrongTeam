@@ -1,0 +1,22 @@
+/* (min-width: 992px) */
+
+.header-img {
+    background-image: url('../img/crossfit-big.jpg');
+    background-position: 50% 72%;
+    
+}
+
+.header-text h1 {
+    
+    font-size: 80px;
+}
+.header-text p {
+    font-size: 23px;
+}
+
+.main-photo {
+    
+    
+    width: 50%;
+    
+}
