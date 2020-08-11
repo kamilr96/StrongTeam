@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
     background-image: url('../img/12.jpg');
@@ -23,11 +27,14 @@ body {
 }
 /* Nawigacja */
 nav {
+    position: sticky;
+    top: 0;
     height: 60px;
     line-height: 60px;
     background-color: rgb(32, 32, 32);
     text-align: center;
     overflow: hidden;
+    z-index: 1;
     
 }
 
@@ -89,7 +96,7 @@ nav {
 
 /*main*/
 section h2 {
-    margin: 80px 0;
+    margin: 40px 0;
     color: white;
     font-size: 38px;
     text-align: center;
@@ -109,9 +116,7 @@ section p {
     color: white;
     font-size: 20px;
     text-align: center;
-
-    text-transform: uppercase;
-    text-shadow: 3px 3px 5px black;
+     text-shadow: 3px 3px 5px black;
 }
 
 .underline {
@@ -124,11 +129,7 @@ section p {
 .photos {
     font-size: 0;
 }
-about-us p {
-    padding: 0 20px;
-    color: white;
-    
-}
+
 .main h2 {
     font-size: 28px;
     margin: 20px;
@@ -205,6 +206,48 @@ about-us p {
    
 }
 
+.contact {
+text-align: center;
+
+}
+.contact h3 {
+    color: white;
+    margin: 20px 0 5px;
+    text-transform: uppercase;
+}
+
+.contact i {
+    font-size: 20px;
+    margin-right: 10px;
+    line-height: 160%;
+
+}
+
+
+
+footer {
+    padding-top: 40px;
+    color: white;
+    height: 80px;
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+
+
+}
+
+.foot-icon{
+    margin-left: 8px;
+}
+.foot-icon i {
+   color: rgb(197, 6, 44);
+   padding: 0 5px;
+   font-size: 24px;
+   transition: color .3s;
+}
+
+.foot-icon i:hover {
+   color: rgb(143, 20, 20)
+}
 
 
 @media (min-width: 400px) {
@@ -227,3 +270,4 @@ about-us p {
         font-size: 19px;
     }
 }
+
