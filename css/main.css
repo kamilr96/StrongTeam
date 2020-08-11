@@ -82,6 +82,12 @@ nav {
     text-transform: uppercase;
     letter-spacing: 2px;
     margin-bottom: 5px;
+    transition: transform .4s;
+}
+
+.header-text h1:hover {
+    
+    transform: scale(1.2);
 }
 
 .header-text span {
