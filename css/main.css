@@ -12,9 +12,15 @@ body {
 .hero-bg {
    width: 100%;
    height: 100%;
-   background-color: rgba(0, 0, 0, .7); 
+   background-color: rgba(0, 0, 0, .73); 
 }
 
+.wrapper {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+    
+}
 /* Nawigacja */
 nav {
     height: 60px;
@@ -72,12 +78,102 @@ nav {
 }
 
 .header-text span {
-    color: rgb(196, 42, 21);
+    color: rgb(197, 6, 44);;
 }
 
 .header-text p {
     font-size: 14px;
     
+}
+
+
+/*main*/
+
+.photos {
+    font-size: 0;
+}
+about-us {
+    margin: 50px 0;
+    
+}
+.about-us h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 5px black;
+
+}
+
+.about-us p {
+    
+    padding: 0 20px;
+    text-align: center;
+    color: white;
+    text-shadow: 3px 3px 5px black;
+}
+
+.hero-bg2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3); 
+ }
+ 
+
+.main-photo {
+    position: relative;
+    color: white;
+    height: 300px;
+    width: 100%;
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    border: rgb(197, 6, 44);
+    border-style:groove;
+    border-width: 2px;
+    transition: color .4s;
+}
+
+.first-photo {
+ background-image: url('../img/box-1514845_1920.jpg');
+ 
+}
+
+.main-photo:hover {
+    color: rgb(197, 6, 44);
+}
+
+.second-photo {
+    background-image: url('../img/wp2563911.jpg');
+   
+}
+
+.third-photo {
+    background-image: url('../img/workout-713658_1920.jpg');
+   
+}
+
+.four-photo {
+    background-image: url('../img/person-3593664_1920.jpg');
+    
+}
+
+.photo-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 3px 3px 5px black;
+    font-size: 16px;
+}
+
+
+.photo-text h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+   
 }
 
 @media (min-width: 400px) {
@@ -87,5 +183,16 @@ nav {
     }
     .header-text p {
         font-size: 18px;
+    }
+    .photo-text h3 {
+        font-size: 33px;
+        margin-bottom: 10px;
+        
+       
+    }
+
+    .photo-text {
+        
+        font-size: 19px;
     }
 }
