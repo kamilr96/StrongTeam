@@ -25,3 +25,11 @@
 .nav-desktop li a:hover {
     color: red;
 }
+
+.header-text h1 {
+    
+    font-size: 46px;
+}
+.header-text p {
+    font-size: 20px;
+}
